@@ -16,7 +16,9 @@ script allows:
 1. Copy "run_script" directory to applications directory.
 2. Add 'run_script' to INSTALLED_APPS.
 ** Usage
+#+BEGIN_SRC shell
 manage.py <script_path/script_name>
+#+END_SRC
 ** Script sample
 #+BEGIN_SRC python
 from your_application.models import  YourModelClass
