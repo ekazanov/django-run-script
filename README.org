@@ -18,6 +18,7 @@ script allows:
 ** Usage
 manage.py <script_path/script_name>
 ** Script sample
+#+BEGIN_SRC python
 from your_application.models import  YourModelClass
 
 for o in YourModelClass.objects.all():
@@ -26,3 +27,4 @@ for o in YourModelClass.objects.all():
 	print o.some_field
     except Exception, e:
         print "an error = ",str(e)
+#+END_SRC
