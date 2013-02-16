@@ -24,7 +24,7 @@ script allows:
 
 # Usage #
 
-	manage.py <script_path/script_name>
+	manage.py run_script <script_path/script_name>
 
 # Script sample #
 
